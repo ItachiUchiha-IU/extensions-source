@@ -1151,7 +1151,7 @@ open class BatoTo(
     }
 
     companion object {
-        private val SERVER_PATTERN = Regex("https://[a-zA-Z]\\d{2}")
+        private val SERVER_PATTERN = Regex("https://[a-zA-Z]\d{2}")
         private val seriesUrlRegex = Regex("""(.*/series/\d+)/.*""")
         private val seriesIdRegex = Regex("""series/(\d+)""")
         private const val MIRROR_PREF_KEY = "MIRROR"
